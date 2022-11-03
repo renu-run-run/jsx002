@@ -1,10 +1,33 @@
 .App {
   text-align: center;
+  background-color: rgb(255, 96, 96);
+  height: 80vh;
+  margin-top: 5%;
+  margin-left:25%;
+  margin-right: 25%;
+  
 }
-
+h1{
+  
+  font-size: 65px;
+  color: white;
+}
+h4 , h5{
+ color: white;
+ font-weight: lighter;
+}
+.App p{
+  color: white;
+  font-size: 19px;
+  font-weight: bold;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.logo-img{
+  z-index: 100;
+
 }
 
 @media (prefers-reduced-motion: no-preference) {
